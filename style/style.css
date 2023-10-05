@@ -8,9 +8,8 @@
 body { 
     background-size: cover;
     background-color: black;
-    
-   
-}
+ }
+
 
 header {
     width: 100%;
@@ -69,6 +68,12 @@ section{
     display: flex;
     justify-content: space-around;
     text-align: center;
+    overflow: hidden;
+    position: relative;
+
+
+
+
   
    
     
@@ -79,7 +84,9 @@ section{
 article{
     width: 50vw;
     margin: 10px;
+    position: relative;
 }
+
 
 
 
@@ -95,7 +102,7 @@ h3{
     color: #fff !important;
 }
 
-p{
+.phover{
     color: #fff;
 }
 
@@ -112,15 +119,20 @@ h1 {
 }
 
 .background{
-    border-style: solid;
-    border-color: #fff;
     width: 85vw;
     position: absolute;
+    width: 100%;
+    opacity: 0.5;
    
 }
 .mainindex{
     display: flex;
     justify-content: center;
+  
+
+  
+   
+
     
 }
 .logo-1{
@@ -134,5 +146,70 @@ h1 {
 
 
 img{
-     width: 80%;
+     width: 100%;
+     display: block;
+     margin: auto;
+}
+
+.home {
+    background-color: azure;
+}
+
+.phover{
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    background: rgba(0,0,0,0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    opacity: 0;
+    transition: 0.6s;
+}
+.phover:hover{
+    opacity: 1;
+}
+
+.map {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+   
+  
+}
+.map2{
+    display: flex;
+    justify-content: right;
+}
+.map3{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.westeros{
+    width: 100%;
+}
+
+.img-hover1 {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    background: rgba(0,0,0,0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    opacity: 0;
+    transition: 0.6s;
+
+}
+.img-hover1:hover{
+    opacity: 1;
+
 }
