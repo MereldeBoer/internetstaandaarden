@@ -12,8 +12,8 @@ body {
 
  .bg-1{
     background-image: url(../plaatjes/throne.jpg);
-    background-size: 100%;
-    background-repeat: no-repeat;
+    /* background-size: 100%;
+    background-repeat: no-repeat; */
  }
 
 /*header*/
