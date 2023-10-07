@@ -117,8 +117,6 @@ h3{
     
 }
 
-
-
 img{
      width: 100%;
      display: block;
@@ -129,7 +127,7 @@ img{
     background-color: azure;
 }
 
-
+/*hover*/
 .hover{
     color: #fff;
 }
