@@ -10,6 +10,10 @@ body {
     background-color: black;
  }
 
+ .bg-1{
+    background-image: url(../plaatjes/throne.jpg);
+ }
+
 /*header*/
 
 header {
@@ -93,11 +97,21 @@ h3{
     color: #fff !important;
 }
 
+p{
+    color:#fff;
+    text-align: center;
+}
 
 
+.img-map2{
+    width: 70%;
+    border: 1px solid white;
+}
     
 
-
+.box-text{
+    padding: 50px 200px 50px 200px;
+}
 
 
 
