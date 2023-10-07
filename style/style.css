@@ -10,6 +10,7 @@ body {
     background-color: black;
  }
 
+/*header*/
 
 header {
     width: 100%;
@@ -19,19 +20,15 @@ header {
     height: 10%;
     justify-content: space-between;
 }
-
-
-ul {
-    display: flex;
-    list-style: none;
-}
-
-
 .logo{
     font-size: 32px;
     color: #fff;
     text-decoration: none;
     font-weight: 700;
+}
+ul {
+    display: flex;
+    list-style: none;
 }
 .navbar a {
     position: relative;
@@ -59,27 +56,18 @@ ul {
     width: 100%;
 }
 
-
-
-    
-
+/*main*/
+.mainindex{
+    display: flex;
+    justify-content: center;
+}
 
 section{
     display: flex;
     justify-content: space-around;
     text-align: center;
     overflow: hidden;
-    position: relative;
-
-
-
-
-  
-   
-    
-    
-  
-
+    position: relative;  
 }
 article{
     width: 50vw;
@@ -88,9 +76,12 @@ article{
 }
 
 
-
-
-
+h1 {
+    color: #fff;
+    width: 100vw;
+    justify-content: center;
+    text-align: center;
+}
 
 h2{
     text-align: center;
@@ -102,21 +93,13 @@ h3{
     color: #fff !important;
 }
 
-.phover{
-    color: #fff;
-}
 
 
     
 
 
 
-h1 {
-    color: #fff;
-    width: 100vw;
-    justify-content: center;
-    text-align: center;
-}
+
 
 .background{
     width: 85vw;
@@ -125,16 +108,7 @@ h1 {
     opacity: 0.5;
    
 }
-.mainindex{
-    display: flex;
-    justify-content: center;
-  
 
-  
-   
-
-    
-}
 .logo-1{
     position: absolute;
     z-index: 1;
@@ -155,7 +129,11 @@ img{
     background-color: azure;
 }
 
-.phover{
+
+.hover{
+    color: #fff;
+}
+.hover{
     width: 100%;
     height: 100%;
     top: 0;
@@ -169,7 +147,7 @@ img{
     opacity: 0;
     transition: 0.6s;
 }
-.phover:hover{
+.hover:hover{
     opacity: 1;
 }
 
@@ -194,22 +172,3 @@ img{
     width: 100%;
 }
 
-.img-hover1 {
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    position: absolute;
-    background: rgba(0,0,0,0.6);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    opacity: 0;
-    transition: 0.6s;
-
-}
-.img-hover1:hover{
-    opacity: 1;
-
-}
