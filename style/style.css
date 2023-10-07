@@ -10,9 +10,11 @@ body {
     background-color: black;
  }
 
- .bg-1{
+ #bg-1{
     background-image: url(../plaatjes/throne.jpg);
     background-repeat: no-repeat;
+    background-size: cover;
+  
  }
 
 /*header*/
