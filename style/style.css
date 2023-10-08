@@ -5,9 +5,13 @@
     box-sizing: border-box;
 }
 
+/*body*/
 body { 
     background-size: cover;
     background-color: black;
+    background-image: url(../plaatjes/stars.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
  }
 
  #bg-1{
@@ -21,7 +25,7 @@ body {
 
 header {
     width: 100%;
-    padding: 20px 100px;
+    padding: 20px 100px 20px 0px;
     background:transparent;
     display: flex;
     height: 10%;
@@ -69,6 +73,19 @@ ul {
     justify-content: center;
 }
 
+
+.box-text{
+    padding: 50px 200px 50px 200px;
+}
+
+
+
+
+.box-text{
+    padding: 50px 200px 50px 200px;
+}
+
+/*section/article*/
 section{
     display: flex;
     justify-content: space-around;
@@ -82,12 +99,14 @@ article{
     position: relative;
 }
 
-
+/*hs/ps*/
 h1 {
     color: #fff;
     width: 100vw;
     justify-content: center;
     text-align: center;
+    margin: 15px;
+   
 }
 
 h2{
@@ -98,6 +117,7 @@ h2{
 
 h3{
     color: #fff !important;
+    text-align: center;
 }
 
 p{
@@ -105,18 +125,11 @@ p{
     text-align: center;
 }
 
-
+/*plaatjes*/
 .img-map2{
     width: 70%;
     border: 1px solid white;
 }
-    
-
-.box-text{
-    padding: 50px 200px 50px 200px;
-}
-
-
 
 .background{
     width: 85vw;
@@ -124,6 +137,10 @@ p{
     width: 100%;
     opacity: 0.5;
    
+}
+
+.logo1{
+    width: 25%;
 }
 
 .logo-1{
@@ -140,9 +157,7 @@ img{
      margin: auto;
 }
 
-.home {
-    background-color: azure;
-}
+
 
 /*hover*/
 .hover{
@@ -166,24 +181,18 @@ img{
     opacity: 1;
 }
 
-.map {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-   
-  
-}
-.map2{
-    display: flex;
-    justify-content: right;
-}
-.map3{
+
+
+/*footer*/
+nav{
     display: flex;
     justify-content: center;
     
+   
 }
-
-.westeros{
-    width: 100%;
+li{
+    margin: 15px;
+    text-decoration: none;
+    
 }
 
